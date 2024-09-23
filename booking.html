@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<title>Cleaning Company - Free Bootstrap 4 Template by Colorlib</title>
+	<title>Bubble Wash</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -72,66 +72,53 @@
 			<div class="col-lg-6">
 				<div class="row g-3">
 					<div class="col-6 text-end">
-						<img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.1s" src="images/about-4.jpg"
-							style="margin-top: 25%;">
+						<img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.1s" src="images/about-4.jpg" style="margin-top: 25%;">
 					</div>
 					<div class="col-6 text-start">
 						<img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.3s" src="images/about-2.jpg">
 					</div>
 					<div class="col-6 text-end">
-						<img class="img-fluid rounded w-50 wow zoomIn" data-wow-delay="0.5s" src="images/about-3.jpg">
+						<img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.5s" src="images/about-3.jpg">
 					</div>
 					<div class="col-6 text-start">
-						<img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.7s" src="images/about-4.jpg">
+						<img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.7s" src="images/about-4.jpg">
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-6">
+			<div class="col-lg-6 col-md-8 col-sm-10 mx-auto">
 				<div class="wow fadeInUp" data-wow-delay="0.2s">
 					<form>
 						<div class="row g-3">
-							<div class="col-md-6">
+							<div class="col-12">
 								<div class="form-floating">
-									<input type="text" class="form-control" id="name" placeholder="Your Name">
-									<label for="name">Detail Alamat</label>
+									<input type="text" class="form-control" id="alamat" placeholder="Detail Alamat" required>
 								</div>
 							</div>
-							<div class="col-md-6">
+							<div class="col-12">
 								<div class="form-floating">
-									<select class="form-select" id="select1">
-										<option value="1">Blimbing</option>
-										<option value="2">Kedungkandang</option>
-										<option value="3">Klojen</option>
-										<option value="4">Lowokwaru</option>
-										<option value="5">Sukun</option>
+									<select class="form-select" id="kecamatan" aria-label="Pilih Kecamatan" required>
+										<option selected disabled value="">Pilih Kecamatan</option>
+										<option value="blimbing">Blimbing</option>
+										<option value="kedungkandang">Kedungkandang</option>
+										<option value="lowokwaru">Lowokwaru</option>
+										<option value="klojen">Klojen</option>
+										<option value="sukun">Sukun</option>
 									</select>
-									<label for="select1">Kecamatan</label>
 								</div>
 							</div>
 							<div class="col-12">
 								<div class="form-floating">
-									<select class="form-select" id="select3">
-										<option value="1">Room 1</option>
-										<option value="2">Room 2</option>
-										<option value="3">Room 3</option>
-									</select>
-									<label for="select3">Select A Room</label>
+									<textarea class="form-control" placeholder="Tambahkan Catatan" id="catatan" style="height: 100px"></textarea>
 								</div>
 							</div>
 							<div class="col-12">
-								<div class="form-floating">
-									<textarea class="form-control" placeholder="Special Request" id="message"
-										style="height: 100px"></textarea>
-									<label for="message">Tambahkan Catatan</label>
-								</div>
-							</div>
-							<div class="col-12">
-								<button class="btn btn-primary w-100 py-3" type="submit">Book Now</button>
+								<button class="btn btn-primary w-100 py-3" type="submit">Pesan Sekarang</button>
 							</div>
 						</div>
 					</form>
 				</div>
 			</div>
+			
 		</div>
 		</div>
 	</section>
